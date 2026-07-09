@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bilal Rakhangi | Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#08111f;
+color:white;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(0,0,0,.35);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+nav h2{
+color:#4da3ff;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:20px;
+transition:.3s;
+}
+
+nav a:hover{
+color:#4da3ff;
+}
+
+section{
+padding:100px 8%;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:58px;
+}
+
+.hero span{
+color:#4da3ff;
+}
+
+.hero p{
+margin-top:20px;
+max-width:700px;
+line-height:1.7;
+color:#d8d8d8;
+}
+
+.btn{
+display:inline-block;
+margin-top:35px;
+padding:14px 30px;
+background:#4da3ff;
+color:white;
+text-decoration:none;
+border-radius:50px;
+transition:.3s;
+font-weight:600;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+background:#2d8cff;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+font-size:38px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:25px;
+}
+
+.card{
+background:#13233d;
+padding:25px;
+border-radius:18px;
+transition:.3s;
+border:1px solid rgba(255,255,255,.08);
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+color:#4da3ff;
+margin-bottom:12px;
+}
+
+.about{
+max-width:900px;
+margin:auto;
+text-align:center;
+line-height:1.8;
+color:#ddd;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact a{
+color:#4da3ff;
+text-decoration:none;
+}
+
+footer{
+padding:30px;
+text-align:center;
+color:#bcbcbc;
+background:#06101c;
+margin-top:40px;
+}
+
+.topBtn{
+position:fixed;
+bottom:20px;
+right:20px;
+padding:12px 18px;
+border:none;
+border-radius:50%;
+background:#4da3ff;
+color:white;
+cursor:pointer;
+display:none;
+font-size:18px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:40px;
+}
+
+nav{
+flex-direction:column;
+gap:10px;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h2>Bilal.</h2>
+
+<div>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</div>
+
+</nav>
+
+<section class="hero">
+
+<h1>Hi, I'm <span>Bilal Rakhangi</span></h1>
+
+<p>
+Computer Science Engineering Student passionate about Full Stack Development.
+Currently learning the MERN Stack and building projects to become a professional software developer.
+</p>
+
+<a href="#contact" class="btn">Contact Me</a>
+
+</section>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<div class="about">
+
+<p>
+I'm a Computer Science Engineering student from Bharati Vidyapeeth, Navi Mumbai.
+I'm passionate about web development, solving real-world problems, and continuously improving my programming skills.
+Currently I'm learning HTML, CSS, JavaScript, Node.js, Express.js, MongoDB and React to become a Full Stack Developer.
+I'm actively looking for internship opportunities where I can learn, contribute, and grow.
+</p>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Frontend</h3>
+<p>HTML5<br>CSS3<br>JavaScript</p>
+</div>
+
+<div class="card">
+<h3>Backend</h3>
+<p>Node.js<br>Express.js</p>
+</div>
+
+<div class="card">
+<h3>Database</h3>
+<p>MongoDB</p>
+</div>
+
+<div class="card">
+<h3>Tools</h3>
+<p>Git<br>GitHub<br>VS Code</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>To-Do List App</h3>
+<p>
+A task management application built while learning JavaScript and Node.js. Users can add, view and delete tasks.
+</p>
+</div>
+
+<div class="card">
+<h3>Personal Portfolio</h3>
+<p>
+A responsive developer portfolio showcasing my skills, projects and contact information.
+</p>
+</div>
+
+<div class="card">
+<h3>Coming Soon</h3>
+<p>
+More Full Stack and MERN projects will be added as I continue my learning journey.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<div class="contact">
+
+<p><strong>Name:</strong> Bilal Rakhangi</p>
+
+<p><strong>Location:</strong> Navi Mumbai, Maharashtra</p>
+
+<p><strong>LinkedIn:</strong></p>
+
+<p>
+<a href="https://www.linkedin.com/in/bilal-rakhangi-72ba19272" target="_blank">
+linkedin.com/in/bilal-rakhangi-72ba19272
+</a>
+</p>
+
+<br>
+
+<a class="btn" href="https://www.linkedin.com/in/bilal-rakhangi-72ba19272" target="_blank">
+Visit LinkedIn
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Bilal Rakhangi • Built with HTML, CSS & JavaScript
+
+</footer>
+
+<button class="topBtn" id="topBtn">↑</button>
+
+<script>
+
+const btn=document.getElementById("topBtn");
+
+window.onscroll=()=>{
+if(document.documentElement.scrollTop>300){
+btn.style.display="block";
+}else{
+btn.style.display="none";
+}
+}
+
+btn.onclick=()=>{
+window.scrollTo({
+top:0,
+behavior:"smooth"
+});
+}
+
+</script>
+
+</body>
+</html>

@@ -1,59 +1,28 @@
-# 💼 Bilal Portfolio
+# Bilal Rakhangi: portfolio
 
-A modern, responsive personal portfolio website built using **HTML, CSS, and JavaScript**. This website showcases my profile, technical skills, projects, and contact information in a clean and professional layout.
+My personal portfolio: who I am, what I have built, where I have worked and how to reach me.
+Plain HTML, CSS and JavaScript. No build step, no dependencies.
 
-## 🌐 Live Website
+**Live:** https://blunthead.github.io/Bilal-portfolio/
 
-https://blunthead.github.io/Bilal-portfolio/
+## What it does
 
-## 📌 Features
+- Apple-style design: large type, soft cards, one blue accent, dark by default and light when your system is
+- Scroll animations: staggered reveals, a statement that lights up word by word as you scroll, numbers that count up, a timeline that draws itself, a reading-progress bar and slow parallax in the hero
+- Cards with a soft light that follows the cursor
+- Responsive, with a layout for phones
+- Respects `prefers-reduced-motion`: with it on, nothing moves and everything is visible
 
-- Responsive design for desktop and mobile
-- Modern dark-themed user interface
-- About Me section
-- Skills section
-- Projects showcase
-- Contact section
-- Smooth scrolling navigation
-- Scroll-to-top button
-- Clean and minimal design
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-
-## 📂 Project Structure
+## Files
 
 ```
-Bilal-portfolio/
-│
-├── index.html
-├── README.md
+index.html   content
+styles.css   design, light and dark themes, responsive rules
+script.js    scroll behaviour (no libraries)
 ```
 
-## 👨‍💻 About Me
+Open `index.html` in a browser, or serve the folder (`python -m http.server`).
 
-I'm **Bilal Rakhangi**, a Computer Science Engineering student passionate about Full Stack Development. I'm currently learning the MERN Stack and building projects to strengthen my web development skills.
+## Contact
 
-## 🚀 Future Improvements
-
-- Add more full-stack projects
-- Integrate React.js
-- Add project filtering
-- Improve animations
-- Add downloadable resume
-- Connect contact form to a backend
-
-## 📫 Contact
-
-**LinkedIn:**  
-https://www.linkedin.com/in/bilal-rakhangi-72ba19272
-
-**Location:**  
-Navi Mumbai, Maharashtra, India
-
----
-
-⭐ If you like this project, consider giving it a star!
+LinkedIn: https://www.linkedin.com/in/bilal-rakhangi-72ba19272
